@@ -2,16 +2,21 @@
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-  width:900px;
+  width:1920px;
+  height: 100vh;
   margin: auto;
   background-color: #081921;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper{
-  font-size: 10px;
+  align-self: center;
+  height: 90%;
+  font-size: 1.5em;
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 27% 73%;
   border-radius: 10px;
 }
 
@@ -48,7 +53,7 @@ body{
 }
 
 .image img{
-  width:10rem;
+  width:20rem;
   border-radius: 50%;
   border: 2px solid transparent;
 }
@@ -64,7 +69,7 @@ body{
 }
 
 .contactList h2{
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .contactList li{
@@ -73,9 +78,9 @@ body{
 }
 
 .contactList li img{
-  padding-right: 10px;
-  width: 15px;
-  height: 15px;
+  padding-right: 30px;
+  width: 35px;
+  height: 35px;
   color: #fff;
 }
 
@@ -85,6 +90,7 @@ body{
 }
 
 .education h2{
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
