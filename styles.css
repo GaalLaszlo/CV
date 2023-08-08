@@ -15,12 +15,10 @@ body{
 
 .wrapper{
   box-sizing: border-box;
-  
   height: 100%;
   font-size: 1.5em;
   display: grid;
   grid-template-columns: minmax(360px, 27%) 73%;
-  
   border-radius: 10px;
 }
 
@@ -221,6 +219,7 @@ body{
   max-width:100% ;
   padding: 2%;
   box-sizing: border-box;
+  font-size: 12px;
 }
 .wrapper{
   display: flex;
@@ -228,6 +227,7 @@ body{
   justify-content: space-between;
 }
 .sidebar{
+  padding: 5%;
   border: none;
   border-radius: 0;
 }
@@ -241,6 +241,14 @@ body{
   flex-direction: column;
   justify-self: center;
   align-items: center;
+}
+.contactList li{
+  margin-bottom: 10px;
+}
+.contactList li img{
+  height: 25px;
+  width: 25px;
+  padding-right: 10px;
 }
 .education{
   width: 100%;
@@ -257,7 +265,6 @@ body{
   text-align: center;
 }
 .languages{
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,11 +272,15 @@ body{
 .languages ul{
   width: 100%;
 }
+.languages li{
+  margin-bottom: 20px;
+}
 .languages li .language{
   display: block;
   text-align: center;
 }
 .main{
+  padding: 5%;
   border: none;
   border-radius: 0;
 }
@@ -287,6 +298,9 @@ body{
 .skills ul{
   width: 100%;
 }
+.skills li{
+  margin-bottom: 20px;
+}
 .skills li .experience{
   display: block;
   text-align: center;
@@ -299,5 +313,10 @@ body{
 .interest ul{
   display: flex;
   flex-direction: column;
+}
+.interest li img{
+  padding-right: 10px;
+  width: 25px;
+  height: 25px;
 }
 }
